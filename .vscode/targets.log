@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Aug 20 17:40:49 2022
+# Make data base, printed on Thu Aug 25 21:59:39 2022
 
 # Variables
 
@@ -20,8 +18,6 @@ LC_ALL = C
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
 SSH_AGENT_LAUNCHER = gnome-keyring
-# environment
-SNAP_INSTANCE_KEY = 
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
@@ -37,10 +33,6 @@ QT_ACCESSIBILITY = 1
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
-SNAP_INSTANCE_NAME = code
-# environment
-GDK_PIXBUF_MODULEDIR = /snap/code/105/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
-# environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
 .VARIABLES := 
@@ -49,7 +41,7 @@ PWD = /home/bhavin/Documents/GitHub/Sorting-Visualization-Algorithm
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
-XDG_DATA_DIRS = /usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/share/gnome:/home/bhavin/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # automatic
@@ -84,20 +76,18 @@ XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 +D = $(patsubst %/,%,$(dir $+))
 # environment
 XDG_SESSION_DESKTOP = ubuntu
-# makefile
-MAKEFILE_LIST := 
-# environment
-SNAP_REEXEC = 
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 37606
+VSCODE_PID = 27747
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/predator:@/tmp/.ICE-unix/2319,unix/predator:/tmp/.ICE-unix/2319
+SESSION_MANAGER = local/predator:@/tmp/.ICE-unix/2222,unix/predator:/tmp/.ICE-unix/2222
 # automatic
 *F = $(notdir $*)
 # environment
@@ -127,9 +117,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-SNAP_COOKIE = ihKQVhkR0LxHTnjCOIUKXy4ZOnWX4uKUoTauynHJZHf7zagh5nsQ
-# environment
-PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # default
 MAKEFILES := 
 # environment
@@ -137,15 +125,7 @@ LANGUAGE = en_IN:en
 # automatic
 ^F = $(notdir $^)
 # environment
-SNAP_USER_COMMON = /home/bhavin/snap/code/common
-# environment
-SNAP = /snap/code/105
-# environment
-INVOCATION_ID = 24c74f963b4b44aaad15563777736f35
-# environment
-SNAP_REVISION = 105
-# environment
-SNAP_REAL_HOME = /home/bhavin
+INVOCATION_ID = 5d5775a6a35744ec961a2a912688198a
 # environment
 USERNAME = bhavin
 # automatic
@@ -164,12 +144,10 @@ GNUMAKEFLAGS :=
 LOGNAME = bhavin
 # environment
 GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/github-desktop.desktop
-# environment
-SNAP_ARCH = amd64
 # makefile
-.DEFAULT_GOAL := 
+.DEFAULT_GOAL := default
 # environment
-SYSTEMD_EXEC_PID = 2338
+SYSTEMD_EXEC_PID = 2245
 # environment
 DISPLAY = :1
 # environment
@@ -179,23 +157,15 @@ GTK_MODULES = gail:atk-bridge
 # default
 MAKE_VERSION := 4.3
 # environment
-DISABLE_WAYLAND = 1
+MANAGERPID = 1926
 # environment
-SNAP_DATA = /var/snap/code/105
-# environment
-SNAP_CONTEXT = ihKQVhkR0LxHTnjCOIUKXy4ZOnWX4uKUoTauynHJZHf7zagh5nsQ
-# environment
-MANAGERPID = 1889
-# environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 37189
+GIO_LAUNCHED_DESKTOP_FILE_PID = 27521
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-GDK_PIXBUF_MODULE_FILE = /home/bhavin/snap/code/common/.cache/gdk-pixbuf-loaders.cache
-# environment
-JOURNAL_STREAM = 8:26522
+JOURNAL_STREAM = 8:31451
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -208,36 +178,24 @@ QT_IM_MODULE = ibus
 ELECTRON_RUN_AS_NODE = 1
 # environment
 VSCODE_IPC_HOOK = /run/user/1000/vscode-eace2abd-1.70.2-main.sock
-# environment
-SNAP_NAME = code
-# environment
-GSETTINGS_SCHEMA_DIR = /snap/code/105/usr/share/glib-2.0/schemas
 # default
 .RECIPEPREFIX := 
 # automatic
 <F = $(notdir $<)
-# environment
-SNAP_VERSION = e4503b30
 # default
 SUFFIXES := 
 # environment
 VSCODE_CLI = 1
 # environment
 ELECTRON_NO_ATTACH_CONSOLE = 1
-# environment
-SNAP_COMMON = /var/snap/code/common
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
-# environment
-SNAP_USER_DATA = /home/bhavin/snap/code/105
 # environment
 XDG_MENU_PREFIX = gnome-
 # environment
 GDMSESSION = ubuntu
-# environment
-SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # variable set hash-table stats:
-# Load=112/1024=11%, Rehash=0, Collisions=3/139=2%
+# Load=92/1024=9%, Rehash=0, Collisions=2/122=2%
 
 # Pattern-specific Variable Values
 
@@ -245,9 +203,9 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # Directories
 
-# . (device 66306, inode 9044169): 8 files, no impossibilities.
+# . (device 66306, inode 9044169): 9 files, no impossibilities.
 
-# 8 files, no impossibilities in 1 directories.
+# 9 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -255,12 +213,19 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # Files
 
+default:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 2):
+	g++ main.cpp -o main -lraylib -lGL -lm -lpthread -ldl -lm -lpthread -ldl -lrt -lX11
+
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  File does not exist.
+#  Last modified 2022-08-20 17:52:06.729660648
 #  File has been updated.
-#  Failed to be updated.
+#  Successfully updated.
 
 # Not a target:
 .DEFAULT:
@@ -275,35 +240,22 @@ all:
 #  File does not exist.
 #  File has not been updated.
 
-# Not a target:
-makefile:
-#  Implicit rule search has been done.
-#  File does not exist.
-#  File has been updated.
-#  Failed to be updated.
-
-# Not a target:
-GNUmakefile:
-#  Implicit rule search has been done.
-#  File does not exist.
-#  File has been updated.
-#  Failed to be updated.
-
 # files hash-table stats:
-# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# Load=5/1024=0%, Rehash=0, Collisions=0/15=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 16 / storage = 146 B / avg = 9 B
-# current buf: size = 8162 B / used = 146 B / count = 16 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 15 / storage = 129 B / avg = 8 B
+# current buf: size = 8162 B / used = 129 B / count = 15 / avg = 8 B
 
-# strcache performance: lookups = 19 / hit rate = 15%
+# strcache performance: lookups = 20 / hit rate = 25%
 # hash-table stats:
-# Load=16/8192=0%, Rehash=0, Collisions=0/19=0%
-# Finished Make data base on Sat Aug 20 17:40:49 2022
- 
+# Load=15/8192=0%, Rehash=0, Collisions=0/20=0%
+# Finished Make data base on Thu Aug 25 21:59:39 2022
 
  
+make: *** No rule to make target 'all'.  Stop.
+
